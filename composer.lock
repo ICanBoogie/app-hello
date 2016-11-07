@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3b05bfb1ed050eed49635d0ff809bb56",
-    "content-hash": "e30f8c800e565c028133f99870e03240",
+    "hash": "c661f11140d7538e89dc5a1332b9e8ef",
+    "content-hash": "6f6f17680b1f2a1a914f3bcb5fc21116",
     "packages": [
         {
             "name": "icanboogie/accessor",
@@ -974,12 +974,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/View.git",
-                "reference": "b253ee7fe491b52ba4056843180fc73e95bf38c5"
+                "reference": "34dbb7a46e12af708684b452cfcaed46c97d2ab3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/View/zipball/b253ee7fe491b52ba4056843180fc73e95bf38c5",
-                "reference": "b253ee7fe491b52ba4056843180fc73e95bf38c5",
+                "url": "https://api.github.com/repos/ICanBoogie/View/zipball/34dbb7a46e12af708684b452cfcaed46c97d2ab3",
+                "reference": "34dbb7a46e12af708684b452cfcaed46c97d2ab3",
                 "shasum": ""
             },
             "require": {
@@ -1015,7 +1015,7 @@
                 "template",
                 "view"
             ],
-            "time": "2016-11-05 19:07:08"
+            "time": "2016-11-07 11:40:39"
         },
         {
             "name": "psr/log",

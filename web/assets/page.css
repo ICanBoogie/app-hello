@@ -11,57 +11,56 @@ html, body {
 	margin: 0;
 }
 
-h1 {
-	text-align: center;
-	font-size: 4rem;
-	font-weight: 300;
-	margin: 0 0 1rem 0;
-}
-
-h1 img {
-	height: 2em;
-	width: auto;
-}
-
-.full-height {
+.hero-title {
 	height: 100vh;
-}
-
-.flex-center {
 	align-items: center;
 	display: flex;
 	justify-content: center;
 	position: relative;
 }
 
-.content {
+.hero-title .content {
 	text-align: center;
 	margin: 2em 0;
 }
 
-.links {
+.hero-title h1 {
+	text-align: center;
+	font-size: 6rem;
+	font-weight: 300;
+	margin: 0 0 1rem 0;
+	line-height: 8rem;
+}
+
+.hero-title h1 img {
+	height: 8rem;
+	width: auto;
+	vertical-align: top;
+}
+
+.hero-title p {
+	margin-bottom: 0;
+}
+
+.hero-title .links {
 	list-style: none;
 	margin: 2rem 0;
 	padding: 0;
 }
 
-.links li {
+.hero-title .links li {
 	display: inline-block;
 }
 
-.links a {
+.hero-title .links a {
 	color: inherit;
 }
 
-.links a:not(:hover) {
+.hero-title .links a:not(:hover) {
 	text-decoration: none;
 	color: #818A91;
 }
 
-.links > li + li {
+.hero-title .links > li + li {
 	margin-left: 2rem;
-}
-
-p {
-	margin-bottom: 0;
 }
