@@ -11,6 +11,9 @@
 
 namespace ICanBoogie;
 
+/*
+ * URL rewriting functionality for the built-in PHP web server.
+ */
 if (PHP_SAPI === 'cli-server')
 {
 	$uri = urldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
@@ -23,8 +26,11 @@ if (PHP_SAPI === 'cli-server')
 	unset($uri);
 }
 
+/*
+ * Obtain the booted application and execute it.
+ */
 (function(Core $app) {
 
 	$app();
 
-}) (require __DIR__ . '/../bootstrap.php');
+}) (require __DIR__ . '/../app/bootstrap.php');
