@@ -25,7 +25,10 @@
 	"autoload": {
 		"psr-4": {
 			"App\\": "lib"
-		}
+		},
+		"classmap": [
+			"app/Application.php"
+		]
 	},
 	"extra": {
 		"icanboogie": {

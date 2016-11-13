@@ -27,10 +27,7 @@ if (PHP_SAPI === 'cli-server')
 }
 
 /*
- * Obtain the booted application and execute it.
+ * Obtain the booted application and run it.
  */
-(function(Core $app) {
-
-	$app();
-
-}) (require __DIR__ . '/../app/bootstrap.php');
+$app = require __DIR__ . '/../app/bootstrap.php';
+$app();
