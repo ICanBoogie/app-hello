@@ -24,7 +24,7 @@ Then run the application with the following command:
 
 ```bash
 $ cd hello
-$ icanboogie serve
+$ make run
 ```
 
 

@@ -1,3 +1,8 @@
+HOST=localhost
+PORT=8080
+
+.PHONY: update autoload optimize unoptimize run clean
+
 vendor:
 	@composer install
 
@@ -15,6 +20,9 @@ unoptimize:
 	@composer dump-autoload
 	@rm -f vendor/icanboogie-combined.php
 	@icanboogie clear cache
+
+run: vendor
+	cd web && php -S $(HOST):$(PORT) index.php
 
 clean:
 	@rm -Rf vendor
