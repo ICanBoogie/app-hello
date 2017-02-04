@@ -27,7 +27,7 @@
 			"App\\": "lib"
 		},
 		"classmap": [
-			"app/Application.php"
+			"Application.php"
 		]
 	},
 	"extra": {

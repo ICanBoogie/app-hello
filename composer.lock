@@ -608,12 +608,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/ICanBoogie.git",
-                "reference": "9c25f1f5dc0f407c6dbf5a71f8038ea79ba9c388"
+                "reference": "a814a9e1bb6e07402e63aca36768fc28afb38f0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/ICanBoogie/zipball/9c25f1f5dc0f407c6dbf5a71f8038ea79ba9c388",
-                "reference": "9c25f1f5dc0f407c6dbf5a71f8038ea79ba9c388",
+                "url": "https://api.github.com/repos/ICanBoogie/ICanBoogie/zipball/a814a9e1bb6e07402e63aca36768fc28afb38f0b",
+                "reference": "a814a9e1bb6e07402e63aca36768fc28afb38f0b",
                 "shasum": ""
             },
             "require": {
@@ -681,7 +681,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2016-11-29 23:43:31"
+            "time": "2017-02-04 12:21:20"
         },
         {
             "name": "icanboogie/inflector",

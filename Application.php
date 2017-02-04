@@ -11,11 +11,7 @@
 
 namespace ICanBoogie;
 
-require __DIR__ . '/../vendor/autoload.php';
-
-if (file_exists(__DIR__ . '/../vendor/icanboogie-combined.php'))
+class Application extends Core
 {
-	require __DIR__ . '/../vendor/icanboogie-combined.php';
+	use Binding\Render\ApplicationBindings;
 }
-
-return boot();
