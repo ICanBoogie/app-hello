@@ -38,12 +38,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Implements getters/setters, read-only/write-only properties, volatile defaults, type control…",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "facade",
                 "getter",
@@ -92,12 +92,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Binds icanboogie/event to ICanBoogie.",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "event",
                 "icanboogie"
@@ -145,12 +145,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Binds icanboogie/http to ICanBoogie",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "time": "2016-11-12 22:58:02"
         },
         {
@@ -193,12 +193,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Binds icanboogie/prototype to ICanBoogie.",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "icanboogie",
                 "prototype"
@@ -211,12 +211,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/bind-render.git",
-                "reference": "da9f54eb7c960cb5736db85c598282ad89d9e937"
+                "reference": "56029adb29fbea44f7fe598257ee82ea4b164bf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/bind-render/zipball/da9f54eb7c960cb5736db85c598282ad89d9e937",
-                "reference": "da9f54eb7c960cb5736db85c598282ad89d9e937",
+                "url": "https://api.github.com/repos/ICanBoogie/bind-render/zipball/56029adb29fbea44f7fe598257ee82ea4b164bf7",
+                "reference": "56029adb29fbea44f7fe598257ee82ea4b164bf7",
                 "shasum": ""
             },
             "require": {
@@ -224,13 +224,13 @@
                 "icanboogie/render": "^0.6",
                 "php": ">=5.6"
             },
-            "require-dev": {
-                "psr/log": "1.0.0"
-            },
             "type": "library",
             "extra": {
                 "icanboogie": {
-                    "config-path": "config"
+                    "config-path": "config",
+                    "config-constructor": {
+                        "render_engines": "ICanBoogie\\Binding\\Render\\RenderConfig::synthesise_engines#render"
+                    }
                 }
             },
             "autoload": {
@@ -246,13 +246,13 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Binds icanboogie/render to ICanBoogie",
-            "homepage": "http://icanboogie.org/",
-            "time": "2016-11-13 01:10:34"
+            "homepage": "https://icanboogie.org/",
+            "time": "2017-02-13 20:00:24"
         },
         {
             "name": "icanboogie/bind-routing",
@@ -295,12 +295,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Binds icanboogie/routing to ICanBoogie.",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "icanboogie",
                 "routing"
@@ -346,12 +346,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Binds icanboogie/view to ICanBoogie",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "time": "2016-11-12 23:02:45"
         },
         {
@@ -389,12 +389,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Common helpers and classes for ICanBoogie",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "toolkit"
             ],
@@ -433,12 +433,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Synthesizes low-level configurations.",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "config"
             ],
@@ -481,12 +481,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Extends the features of PHP DateTime and DateTimeZone",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "date",
                 "time",
@@ -534,12 +534,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Provides an event API",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "event"
             ],
@@ -551,12 +551,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/HTTP.git",
-                "reference": "b0509e065943ee65f0283c5a0eb8ec79633d9643"
+                "reference": "fbe866502fbbac2cea11644864e7324927c7f5b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/HTTP/zipball/b0509e065943ee65f0283c5a0eb8ec79633d9643",
-                "reference": "b0509e065943ee65f0283c5a0eb8ec79633d9643",
+                "url": "https://api.github.com/repos/ICanBoogie/HTTP/zipball/fbe866502fbbac2cea11644864e7324927c7f5b6",
+                "reference": "fbe866502fbbac2cea11644864e7324927c7f5b6",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +600,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-11-06 19:44:15"
+            "time": "2017-02-11 14:10:58"
         },
         {
             "name": "icanboogie/icanboogie",
@@ -608,12 +608,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/ICanBoogie.git",
-                "reference": "a814a9e1bb6e07402e63aca36768fc28afb38f0b"
+                "reference": "7b1c90fafd7bcdb84699b541f7e39012ebb2723a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/ICanBoogie/zipball/a814a9e1bb6e07402e63aca36768fc28afb38f0b",
-                "reference": "a814a9e1bb6e07402e63aca36768fc28afb38f0b",
+                "url": "https://api.github.com/repos/ICanBoogie/ICanBoogie/zipball/7b1c90fafd7bcdb84699b541f7e39012ebb2723a",
+                "reference": "7b1c90fafd7bcdb84699b541f7e39012ebb2723a",
                 "shasum": ""
             },
             "require": {
@@ -672,16 +672,16 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "High-performance object-oriented micro-framework for PHP5.4+",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "framework"
             ],
-            "time": "2017-02-04 12:21:20"
+            "time": "2017-02-11 21:28:02"
         },
         {
             "name": "icanboogie/inflector",
@@ -718,12 +718,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Multilingual inflector that transforms words from singular to plural, underscore to camel case, and more.",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "camelize",
                 "hyphenate",
@@ -769,12 +769,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Implements the Prototype design pattern; getters/setters",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "facade",
                 "getter",
@@ -789,12 +789,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/Render.git",
-                "reference": "4da698e1af0afacf0a7e50dceef4f909f0cdc8b1"
+                "reference": "d438e83e924ddce68fad99cd3996eadbcfcfb7d8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/Render/zipball/4da698e1af0afacf0a7e50dceef4f909f0cdc8b1",
-                "reference": "4da698e1af0afacf0a7e50dceef4f909f0cdc8b1",
+                "url": "https://api.github.com/repos/ICanBoogie/Render/zipball/d438e83e924ddce68fad99cd3996eadbcfcfb7d8",
+                "reference": "d438e83e924ddce68fad99cd3996eadbcfcfb7d8",
                 "shasum": ""
             },
             "require": {
@@ -818,17 +818,17 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Renders templates with a variety of template engines.",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "decorate",
                 "render"
             ],
-            "time": "2016-11-06 17:10:31"
+            "time": "2017-02-13 18:20:48"
         },
         {
             "name": "icanboogie/routing",
@@ -836,12 +836,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/Routing.git",
-                "reference": "86f02a9deb62836439bc44df5d957bd89c19d951"
+                "reference": "f5530d2a25a91db4002846b7975a3c6831073b39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/Routing/zipball/86f02a9deb62836439bc44df5d957bd89c19d951",
-                "reference": "86f02a9deb62836439bc44df5d957bd89c19d951",
+                "url": "https://api.github.com/repos/ICanBoogie/Routing/zipball/f5530d2a25a91db4002846b7975a3c6831073b39",
+                "reference": "f5530d2a25a91db4002846b7975a3c6831073b39",
                 "shasum": ""
             },
             "require": {
@@ -868,16 +868,17 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
-            "description": "Request routing.",
-            "homepage": "http://icanboogie.org/",
+            "description": "Request routing",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
+                "controller",
                 "routing"
             ],
-            "time": "2017-01-20 23:05:26"
+            "time": "2017-02-11 19:37:22"
         },
         {
             "name": "icanboogie/session",
@@ -912,12 +913,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Manage sessions",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "session"
             ],
@@ -957,12 +958,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Store and retrieve values, using different/multiple storage backends.",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "cache",
                 "retrieve",
@@ -1007,12 +1008,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "http://www.weirdog.com/",
+                    "homepage": "https://olvlvl.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Provides view support to ICanBoogie",
-            "homepage": "http://icanboogie.org/",
+            "homepage": "https://icanboogie.org/",
             "keywords": [
                 "template",
                 "view"
