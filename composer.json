@@ -31,11 +31,6 @@
 			"Application.php"
 		]
 	},
-	"extra": {
-		"icanboogie": {
-			"app-root": "app"
-		}
-	},
 	"scripts": {
 		"post-autoload-dump": "ICanBoogie\\Autoconfig\\Hooks::on_autoload_dump"
 	}
