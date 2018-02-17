@@ -110,12 +110,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/bind-http.git",
-                "reference": "4e3ac4ddae7180ec0b2ea7833db08ec802c002e2"
+                "reference": "b5b8c8ac1d225a14bac5d3f56cd7922728cddadc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/bind-http/zipball/4e3ac4ddae7180ec0b2ea7833db08ec802c002e2",
-                "reference": "4e3ac4ddae7180ec0b2ea7833db08ec802c002e2",
+                "url": "https://api.github.com/repos/ICanBoogie/bind-http/zipball/b5b8c8ac1d225a14bac5d3f56cd7922728cddadc",
+                "reference": "b5b8c8ac1d225a14bac5d3f56cd7922728cddadc",
                 "shasum": ""
             },
             "require": {
@@ -151,7 +151,7 @@
             ],
             "description": "Binds icanboogie/http to ICanBoogie",
             "homepage": "https://icanboogie.org/",
-            "time": "2016-11-12 22:58:02"
+            "time": "2017-06-23T19:32:28+00:00"
         },
         {
             "name": "icanboogie/bind-prototype",
@@ -252,7 +252,7 @@
             ],
             "description": "Binds icanboogie/render to ICanBoogie",
             "homepage": "https://icanboogie.org/",
-            "time": "2017-04-13 00:32:14"
+            "time": "2017-04-13T00:32:14+00:00"
         },
         {
             "name": "icanboogie/bind-routing",
@@ -306,7 +306,7 @@
                 "icanboogie",
                 "routing"
             ],
-            "time": "2017-04-06 19:40:38"
+            "time": "2017-04-06T19:40:38+00:00"
         },
         {
             "name": "icanboogie/bind-view",
@@ -353,7 +353,7 @@
             ],
             "description": "Binds icanboogie/view to ICanBoogie",
             "homepage": "https://icanboogie.org/",
-            "time": "2016-11-12 23:02:45"
+            "time": "2016-11-12T23:02:45+00:00"
         },
         {
             "name": "icanboogie/common",
@@ -407,17 +407,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/Config.git",
-                "reference": "16ca10d0c15f55ff96261445b0a688997aa91137"
+                "reference": "a25c93ab47ac7a2b07570a8a809e7a73b4e6e92b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/Config/zipball/16ca10d0c15f55ff96261445b0a688997aa91137",
-                "reference": "16ca10d0c15f55ff96261445b0a688997aa91137",
+                "url": "https://api.github.com/repos/ICanBoogie/Config/zipball/a25c93ab47ac7a2b07570a8a809e7a73b4e6e92b",
+                "reference": "a25c93ab47ac7a2b07570a8a809e7a73b4e6e92b",
                 "shasum": ""
             },
             "require": {
                 "icanboogie/common": "^1.2",
-                "icanboogie/storage": "^2.0",
+                "icanboogie/storage": "^2.0 | ^3.0",
                 "php": ">=5.5"
             },
             "type": "library",
@@ -443,7 +443,7 @@
             "keywords": [
                 "config"
             ],
-            "time": "2017-02-18T10:14:37+00:00"
+            "time": "2017-05-24T23:00:48+00:00"
         },
         {
             "name": "icanboogie/datetime",
@@ -598,7 +598,7 @@
                 "request",
                 "response"
             ],
-            "time": "2017-02-11 14:10:58"
+            "time": "2017-02-11T14:10:58+00:00"
         },
         {
             "name": "icanboogie/icanboogie",
@@ -606,12 +606,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/ICanBoogie.git",
-                "reference": "82ad9f12623b7bd7cad763fa01d61028226e83b2"
+                "reference": "f5acdd19f07c7a071f95cf28049ee2ddb3ee232a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/ICanBoogie/zipball/82ad9f12623b7bd7cad763fa01d61028226e83b2",
-                "reference": "82ad9f12623b7bd7cad763fa01d61028226e83b2",
+                "url": "https://api.github.com/repos/ICanBoogie/ICanBoogie/zipball/f5acdd19f07c7a071f95cf28049ee2ddb3ee232a",
+                "reference": "f5acdd19f07c7a071f95cf28049ee2ddb3ee232a",
                 "shasum": ""
             },
             "require": {
@@ -619,10 +619,10 @@
                 "icanboogie/bind-http": "^3.0",
                 "icanboogie/bind-prototype": "^3.0",
                 "icanboogie/bind-routing": "^4.0",
-                "icanboogie/config": "^1.0",
+                "icanboogie/config": "^1.2",
                 "icanboogie/session": "^1.0",
-                "icanboogie/storage": "^2.0",
-                "php": ">=5.6.0",
+                "icanboogie/storage": "^3.0",
+                "php": "^5.6 | ^7.0",
                 "psr/log": "^1.0"
             },
             "require-dev": {
@@ -678,20 +678,20 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-04-12 23:48:55"
+            "time": "2017-06-23T19:10:19+00:00"
         },
         {
             "name": "icanboogie/inflector",
-            "version": "v1.4.2",
+            "version": "v1.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/Inflector.git",
-                "reference": "d3a2c4930c67fa93dc782f67955b85d56369742c"
+                "reference": "a875d3c16215327e1a2555592b167ae2591c5c2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/Inflector/zipball/d3a2c4930c67fa93dc782f67955b85d56369742c",
-                "reference": "d3a2c4930c67fa93dc782f67955b85d56369742c",
+                "url": "https://api.github.com/repos/ICanBoogie/Inflector/zipball/a875d3c16215327e1a2555592b167ae2591c5c2f",
+                "reference": "a875d3c16215327e1a2555592b167ae2591c5c2f",
                 "shasum": ""
             },
             "require": {
@@ -715,12 +715,12 @@
                 {
                     "name": "Olivier Laviale",
                     "email": "olivier.laviale@gmail.com",
-                    "homepage": "https://olvlvl.com/",
+                    "homepage": "http://www.weirdog.com/",
                     "role": "Developer"
                 }
             ],
             "description": "Multilingual inflector that transforms words from singular to plural, underscore to camel case, and more.",
-            "homepage": "https://icanboogie.org/",
+            "homepage": "http://icanboogie.org/",
             "keywords": [
                 "camelize",
                 "hyphenate",
@@ -730,7 +730,7 @@
                 "singularize",
                 "underscore"
             ],
-            "time": "2016-12-15T09:15:25+00:00"
+            "time": "2017-06-30T13:16:14+00:00"
         },
         {
             "name": "icanboogie/prototype",
@@ -825,7 +825,7 @@
                 "decorate",
                 "render"
             ],
-            "time": "2017-02-13 18:20:48"
+            "time": "2017-02-13T18:20:48+00:00"
         },
         {
             "name": "icanboogie/routing",
@@ -872,7 +872,7 @@
                 "controller",
                 "routing"
             ],
-            "time": "2017-04-06 20:22:33"
+            "time": "2017-04-06T20:22:33+00:00"
         },
         {
             "name": "icanboogie/session",
@@ -920,16 +920,16 @@
         },
         {
             "name": "icanboogie/storage",
-            "version": "v2.1.1",
+            "version": "3.0.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ICanBoogie/Storage.git",
-                "reference": "3c8b4a0a2736fcdf98b3a3d9fdef9796ec9011f4"
+                "reference": "61d7d6ad30c103b09409abed7718a594e8b6a00b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ICanBoogie/Storage/zipball/3c8b4a0a2736fcdf98b3a3d9fdef9796ec9011f4",
-                "reference": "3c8b4a0a2736fcdf98b3a3d9fdef9796ec9011f4",
+                "url": "https://api.github.com/repos/ICanBoogie/Storage/zipball/61d7d6ad30c103b09409abed7718a594e8b6a00b",
+                "reference": "61d7d6ad30c103b09409abed7718a594e8b6a00b",
                 "shasum": ""
             },
             "require": {
@@ -963,7 +963,7 @@
                 "retrieve",
                 "store"
             ],
-            "time": "2016-11-29T23:48:45+00:00"
+            "time": "2017-05-30T22:01:51+00:00"
         },
         {
             "name": "icanboogie/view",
@@ -1012,7 +1012,7 @@
                 "template",
                 "view"
             ],
-            "time": "2016-11-07 11:40:39"
+            "time": "2016-11-07T11:40:39+00:00"
         },
         {
             "name": "psr/log",
